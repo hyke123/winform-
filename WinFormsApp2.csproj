@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFrameworks>net48;net8-windows</TargetFrameworks>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Platforms>AnyCPU;x64</Platforms>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Update="UserControl1.cs">
+	    <SubType>UserControl</SubType>
+	  </Compile>
+	</ItemGroup>
+</Project>
